@@ -3,9 +3,9 @@
 Este grupo se crea con el fin de implementar el desarrollo para la Aplicación del C3
 
 Marena...
-.
-.
-.
+.Mi nombre es Marena Molano Mendoza  
+.Tengo 28 años
+.me gusta salir, comer helados y ver pelis
 .
 Alex...
 .Soy Alexander Bustos Betancur, puden llamarme Alex.
