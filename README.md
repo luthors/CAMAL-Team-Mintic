@@ -8,10 +8,10 @@ Marena...
 .
 .
 Alex...
-.
-.
-.
-.
+.Soy Alexander Bustos Betancur, puden llamarme Alex.
+.Tengo 21 años.
+.Vivo en Medellín, amo los idiomas.
+.Actualmente estudio ingeniería física.
 Andrea...
 .
 .
