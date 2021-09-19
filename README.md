@@ -13,9 +13,9 @@ Alex...
 .Vivo en Medellín, amo los idiomas.
 .Actualmente estudio ingeniería física.
 Andrea...
-.
-.
-.
+. Mi nombre es Andrea Camila Jaimes Campo
+. Tengo 24 años, soy ingeniera quimica
+. Vivo ehn Santa Marta
 .
 Camilo...
 .Mi nombre es Andrés Camilo Campuzano Osorio
