@@ -17,13 +17,13 @@ export const AppRouter = () => {
                     
                     <Route 
                         path="/auth"
-                        component={AuthRouter}
+                        component={ AuthRouter }
                     />
 
                     <Route 
                         exact
                         path="/"
-                        component={DashboardScreen}
+                        component={ DashboardScreen }
                     />
 
                     <Redirect to="/auth/login" />
