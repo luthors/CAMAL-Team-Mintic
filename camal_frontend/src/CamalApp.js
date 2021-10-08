@@ -1,9 +1,11 @@
 import React from 'react'
 
+import { AppRouter } from './components/routers/AppRouter'
+
 export const CamalApp = () => {
   return (
-    <div>
-      <h1>Camal App</h1>
-    </div>
+    
+    <AppRouter />
+
   )
 }
