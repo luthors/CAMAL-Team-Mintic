@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import './styles/styles.scss';
+
+import { CamalApp } from './CamalApp';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <CamalApp />,
   document.getElementById('root')
 );
 
