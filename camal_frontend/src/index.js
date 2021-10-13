@@ -8,4 +8,3 @@ ReactDOM.render(
   <CamalApp />,
   document.getElementById('root')
 );
-

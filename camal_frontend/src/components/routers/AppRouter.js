@@ -9,6 +9,8 @@ import {
 import { AuthRouter } from './AuthRouter';
 import { DashboardScreen } from '../dashboard/DashboardScreen';
 
+
+//Enrutador principal
 export const AppRouter = () => {
     return (
         <Router>
