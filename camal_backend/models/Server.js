@@ -3,6 +3,8 @@ const http = require('http');
 const path = require('path');
 const cors = require('cors');
 
+const { dbConnection } = require('../database/config');
+
 
 class Server {
 
@@ -19,13 +21,21 @@ class Server {
         this.app.use( express.static(path.resolve(__dirname, '../public')));
 
         this.app.use(cors());
+
+        //Para lectura del body de las peticiones
+        this.app.use( express.json() );
+
+        //Definición de rutas
+        this.app.use('/api/auth', require('../routes/auth'));
+
     }
 
     initServer() {
+
+        //conexion DB
+        dbConnection();
         
         this.middlewares();
-
-        this.socketConfig();
 
         this.server.listen(this.port, () => {
             console.log('Servidor escuchando desde puerto ', this.port);
